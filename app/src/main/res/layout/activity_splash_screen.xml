@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#332E3E"
+    tools:ignore="ContentDescription"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="374dp"
+        android:layout_height="530dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="94dp"
+        android:contentDescription="@string/todo"
+        android:src="@mipmap/classroom_splash" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="230dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="@string/main"
+        android:textColor="#D4E3E1"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
